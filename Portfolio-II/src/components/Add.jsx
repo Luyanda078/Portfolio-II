@@ -1,4 +1,7 @@
+import { useState } from "react";
 function AddTransaction() {
+    const [transactionItem,setTransactionsItem]=useState('')
+    const[amount, setAmount] = useState('')
     return( 
     <div>
         <h1>
